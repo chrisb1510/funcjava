@@ -3,16 +3,16 @@
   var getShortMessages;
 
   getShortMessages = function(messages) {
-    var res, result;
+    var res;
     res = [];
-    return result = messages.map(function(message) {
-      res[0] = res[0] += message.message;
-      return console.log(res);
+    messages.map(function(message) {
+      if (message.message.length < 50) {
+        return res.push(message.message);
+      }
     });
+    return res;
   };
 
   module.exports = getShortMessages;
 
 }).call(this);
-
-//# sourceMappingURL=arrayfilter.js.map

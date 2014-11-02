@@ -3,12 +3,15 @@
   var checkUsersValid;
 
   checkUsersValid = function(goodUsers) {
-    var submittedUsers;
-    return submittedUsers = function() {};
+    return function(submittedUsers) {
+      return submittedUsers.every(function(givenuser) {
+        return goodUsers.some(function(user) {
+          return user.id === givenuser.id;
+        });
+      });
+    };
   };
 
   module.exports = checkUsersValid;
 
 }).call(this);
-
-//# sourceMappingURL=everyarray.js.map
