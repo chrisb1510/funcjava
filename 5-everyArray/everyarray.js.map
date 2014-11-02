@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "everyarray.js",
+  "sourceRoot": "",
+  "sources": [
+    "everyarray.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAAA;AAAA,MAAA,eAAA;;AAAA,EAAA,eAAA,GAAkB,SAAC,SAAD,GAAA;AAChB,QAAA,cAAA;WAAA,cAAA,GAAiB,SAAA,GAAA,EADD;EAAA,CAAlB,CAAA;;AAAA,EAIA,MAAM,CAAC,OAAP,GAAiB,eAJjB,CAAA;AAAA"
+}

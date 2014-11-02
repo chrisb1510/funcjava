@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "higherorder.js",
+  "sourceRoot": "",
+  "sources": [
+    "higherorder.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAAA;AAAA,MAAA,MAAA;;AAAA,EAAA,MAAA,GAAS,SAAC,SAAD,EAAW,GAAX,GAAA;AACP,QAAA,SAAA;AAAA,SAAS,kCAAT,GAAA;AACE,MAAA,EAAA,GAAK,SAAL,CAAA;AAAA,MACA,EAAA,CAAA,CADA,CAAA;AAEA,YAAA,CAHF;AAAA,KADO;EAAA,CAAT,CAAA;;AAAA,EAMA,MAAM,CAAC,OAAP,GAAiB,MANjB,CAAA;AAAA"
+}
