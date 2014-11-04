@@ -6,7 +6,7 @@
 
   logger = function(namespace) {
     return function() {
-      return console.log.apply(console, [namespace, slice(arguments).join(" ")]);
+      return console.log.apply(console, [namespace, slice.call(arguments).join(" ")]);
     };
   };
 
